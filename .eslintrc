@@ -1,0 +1,26 @@
+{
+  "env": {
+    "amd": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "SERVER_PUBLIC_IP": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2],//0=> ignore, 1=> warning, 2=> error 
+    "max-lines": ["error", {"max": 8037, "skipBlankLines": true}],
+    "no-console": 2,
+    "no-unused-vars": ["error", {
+      "vars": "all",
+      "args": "after-used",
+      "varsIgnorePattern":  "^_"
+    }]
+  }
+}

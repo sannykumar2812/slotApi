@@ -1,0 +1,30 @@
+{
+    "default": {
+    
+    },
+    "timeslot" : {
+        "startTime" :{
+            "type" : "string"
+        },
+        "endTime" : {
+            "type" : "string"
+        },
+        "duration" : {
+            "type" : "string"
+        },
+        "interval" :{
+            "type" : "string"
+        },
+        "slots" : {
+            "type" : "string"
+        },
+        "days" :{
+            "type" : "string"
+        },
+        "timezone" :{
+            "type" : "string"
+        }
+    }
+  
+}
+
